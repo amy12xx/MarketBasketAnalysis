@@ -233,36 +233,6 @@ def main():
 	print "total time for execution: ", (time() - t)
 	# print
 	ap.get_association_rules(savefile)
-	# print
-	# print "Association_rules over confidence threshold, sorted:"
-	# for key, val in rules.iteritems():
-	# 	print key[0], "-->", key[1], " confidence: ", val
-	
-	# data = codecs.open("D:/datasets/market-basket-analysis/sample.txt", 'r', encoding="utf-8")
-	# t = time()
-	# ap = APriori(data, sep=",", support=0.1, k=4)
-	# print "total time for execution: ", (time() - t)
-	# rules = ap.get_association_rules(confidence=0.57)
-	# print "association_rules over threshold, sorted:"
-	# for key, val in rules.iteritems():
-	# 	print key[0], "-->", key[1], " confidence: ", val
-
-
-	# data = codecs.open("D:/datasets/market-basket-analysis/retail.txt", 'r', encoding="utf-8")
-	# t = time()
-	# ap = APriori(data, sep=" ", support=0.06, k=3)
-	# print "total time for execution: ", (time() - t)
-	# rules = ap.get_association_rules(confidence=0.6)
-	# print "association_rules over threshold, sorted:"
-	# for key, val in rules.iteritems():
-	# 	print key[0], "-->", key[1], " confidence: ", val
-
-
-	# data = codecs.open("D:/datasets/market-basket-analysis/T10I4D100K.txt", 'r', encoding="utf-8")
-	# t = time()
-	# ap = APriori(data, sep=" ", support=0.03, k=4)
-	# print "total time for execution: ", (time() - t)
-	# _ = ap.get_association_rules(confidence=0.9)
 
 if __name__ == '__main__':
 	main()

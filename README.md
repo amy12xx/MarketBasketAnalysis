@@ -12,3 +12,5 @@ Confidence of a rule: The measure of certainty or trustworthiness associated wit
 Confidence (A -> B) = (No. of transactions containing both A and B) / No. of transactions containing A
 
 Dataset contains transactions of grocery items purchased by customers. Dataset contains about 10,000 transactions.
+
+Apriori.py takes 2 arguments: path of data file, and path where association rules file is to be saved. For the input dataset, it assumes, a text file, separated by ",". This can be modified easily in main() 
